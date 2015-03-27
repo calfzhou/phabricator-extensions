@@ -9,3 +9,4 @@ Copy these files into `path_to_phabricator/src/extensions`.
 - [KickBackAction](KickBackAction.php)
   - A "Reassign to author" action which will be available in "Global" Maniphest Herald rules.
   - https://secure.phabricator.com/T5162
+  - Files: [KickBackAction.php](KickBackAction.php)
