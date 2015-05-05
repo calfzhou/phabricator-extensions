@@ -3,4 +3,4 @@
 	url = https://github.com/bluehawk/phabricator-sprint.git
 [submodule "Sprint"]
 	path = Sprint
-	url = git@github.com:calfzhou/phabricator-extensions-Sprint.git
+	url = https://github.com/calfzhou/phabricator-extensions.git
