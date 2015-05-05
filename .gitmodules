@@ -1,6 +1,3 @@
 [submodule "phabricator-sprint"]
 	path = phabricator-sprint
 	url = https://github.com/bluehawk/phabricator-sprint.git
-[submodule "Sprint"]
-	path = Sprint
-	url = https://github.com/calfzhou/phabricator-extensions.git
