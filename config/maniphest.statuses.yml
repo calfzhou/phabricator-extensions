@@ -1,0 +1,51 @@
+open:
+  name: Open
+  special: default
+  transaction.icon: fa-square-o
+  transaction.color: blue
+  prefixes:
+    - open
+    - opens
+    - reopen
+    - reopens
+verifying:
+  name: 'Verifying'
+  name.full: 'Resolved, Verifying'
+  transaction.icon: fa-check
+  transaction.color: green
+  prefixes:
+    - fix
+    - fixes
+    - fixed
+    - resolve
+    - resolves
+    - resolved
+  suffixes:
+    - as fixed
+    - as resolved
+resolved:
+  name: 'Resolved, Verified'
+  name.full: 'Resolved, Closed'
+  closed: true
+  special: closed
+  transaction.icon: fa-check-square-o
+  transaction.color: green
+wontfix:
+  name: 'Wontfix, Verified'
+  name.full: 'Wontfix, Closed'
+  closed: true
+  transaction.icon: fa-times
+  transaction.color: red
+duplicate:
+  name: 'Duplicate, Verified'
+  name.full: 'Duplicate, Closed'
+  closed: true
+  special: duplicate
+  transaction.icon: fa-files-o
+  transaction.color: sky
+invalid:
+  name: 'Invalid'
+  name.full: 'Invalid, Closed'
+  closed: true
+  transaction.icon: fa-ban
+  transaction.color: black
